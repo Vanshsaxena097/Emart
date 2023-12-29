@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<!--    Slider-->
+    <com.smarteist.autoimageslider.SliderView
+        android:id="@+id/sl"
+        android:layout_width="match_parent"
+        android:layout_height="236dp" />
+
+
+    <!--    Grid View-->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sl"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="-3dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/idRVItems"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:background="#000000" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="373dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp">
+
+
+        <GridView
+            android:id="@+id/idGVCourses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numColumns="3" />
+
+    </LinearLayout>
+
+</RelativeLayout>

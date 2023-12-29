@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "246952057209",
+    "project_id": "grid-view-6fa9c",
+    "storage_bucket": "grid-view-6fa9c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:246952057209:android:d1c58e63298e6f94b5b7a8",
+        "android_client_info": {
+          "package_name": "com.example.gridview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "246952057209-1rgek20rgb1ddi2aolorfvtt6n9efit2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMtL0XqSoNwnhwVczUVdvdZK_na1_JND0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "246952057209-1rgek20rgb1ddi2aolorfvtt6n9efit2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
